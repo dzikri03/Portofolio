@@ -26,7 +26,7 @@ html[light-mode="dark"] {
   --bg1-color: #272727;
   --bg-col: rgba(0, 0, 0, 0);
   --text-gra: ;
-  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #00bbff 74%);
   --txt-fill: transparent;
   --p-up: #fff;
   --bg-head: rgba(0, 0, 0, 0.877);
@@ -38,7 +38,7 @@ html[light-mode="dark"] {
   --cite-col-txt: #fff;
   --cite-close: rgba(0, 0, 0, 0.192);
   --cite-hover: #fff;
-  --hover-link: rgb(236, 103, 125);
+  --hover-link: hsl(196, 100%, 50%);
   --shadow-col1: rgb(29, 28, 28);
   --shadow-col2: rgba(34, 34, 34, 0.459);
 }
@@ -53,7 +53,7 @@ html {
 /* color of research page heading*/
 
 .research_work {
-  color: #4e00bb;
+  color: #00bbff;
 }
 
 /*For Changing background color of body according to theme*/
@@ -401,8 +401,8 @@ body {
 }
 
 .button {
-  border: 1px solid rgb(231, 85, 109);
-  color: rgb(231, 85, 109);
+  border: 1px solid rgb(0, 187, 255);
+  color: rgb(0, 187, 255);
   outline: none;
   background-color: transparent;
   transition: 0.3s;

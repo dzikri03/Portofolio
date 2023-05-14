@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Oxanium&family=Sacramento&display=swap');
+
 @font-face {
   font-family: "Agustina";
   src: url(../fonts/Agustina.woff);
@@ -7,7 +9,7 @@
 /*CSS variable declaration for light/dark mode*/
 
 html[data-theme="light"] {
-  --bg-mybtn: red;
+  --bg-mybtn: #00bbff;
   --bg-nav: black;
   --bg-nav-img: black;
   --bg-footer: #DDE1EC;
@@ -35,9 +37,9 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
   --bg-mybtn: rgb(230, 109, 129);
-  --bg-nav: #6617cb;
-  --bg-nav-img: linear-gradient(315deg, #6617cb 0%, #882463 74%);
-  --bg-footer: linear-gradient(315deg, #6617cb 0%, #882463 74%);
+  --bg-nav: #00bbff;
+  --bg-nav-img: linear-gradient(315deg, #00bbff 0%, #882463 74%);
+  --bg-footer: linear-gradient(315deg, #00bbff 0%, #882463 74%);
   --bg: #191919;
   --text: #ffffff;
   --text-color: #fff;
@@ -73,7 +75,7 @@ html[data-theme="dark"] {
 }
 
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
+  -webkit-box-shadow: inset 0 0 6px #00bbff;
   border-radius: 2px;
   background: #f1f1f1;
 }
@@ -81,20 +83,20 @@ html[data-theme="dark"] {
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
   max-height: 10px;
-  -webkit-box-shadow: inset 0 0 6px #bb86fc;
-  background: #bb86fc;
+  -webkit-box-shadow: inset 0 0 6px #00bbff;
+  background: #00bbff;
   transition: 0.3s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ca9eff;
+  background: #00bbff;
   
 }
 
 /* Custom Scrollbar for Mozilla Firefox*/
 html{
   overflow-y: visible;
-  scrollbar-color: #ca9eff #f1f1f1;
+  scrollbar-color: #00bbff #f1f1f1;
   scrollbar-width: auto;
 }
 
@@ -103,7 +105,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   color: var(--text);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Itim', cursive;
   background-color: var(--bg);
 }
 .text-center heading1 exp-head {
@@ -116,7 +118,7 @@ body {
 #btnScrollToTop {
   width: 50px;
   height: 50px;
-  background-color: #bb86fc;
+  background-color: #00bbff;
   color: #fff;
   margin: 8px;
   border: none;
@@ -183,7 +185,7 @@ html {
 .hamburger {
   width: 2.5em;
   height: 2em;
-  font-size: 11px;
+  font-size: 12px;
   cursor: pointer;
   position: relative;
 }
@@ -230,6 +232,7 @@ html {
 
 .navbar-brand {
   font-family: Agustina;
+  margin-top: 10px;
   font-size: 30px;
   font-weight: bold;
 }
@@ -272,13 +275,13 @@ html {
 .dark_toggler:checked {
   background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
   transition: background-image 0.9s;
-  box-shadow: 0px 2px 5px 1px rgb(187, 134, 201);
+  box-shadow: 0px 2px 5px 1px #00bbff;
 }
 
 .dark_toggler:checked:before {
   transform: translate(150%);
   transition: all 0.9s;
-  background-color: #bb86fc;
+  background-color: #00bbff;
 }
 /* end of dark mode toggle switch button */
 
@@ -395,7 +398,7 @@ color: #ffffff !important;
       margin-right: auto;
       bottom: 0;
       width: 32%;
-      border-bottom: 3px solid #6a00bb;
+      border-bottom: 3px solid #00bbff;
   }
   
   .nav-item-hover::after {
@@ -406,7 +409,7 @@ color: #ffffff !important;
       height: 0.15em;
       bottom: 0;
       width: 0%;
-      background-color: #6a00bb;
+      background-color: #00bbff;
       transition: all ease-in-out 280ms;
   }
   
@@ -433,7 +436,7 @@ html[light-mode="light"] .nav-link{
   color: #000000 !important;
 }
 html[light-mode="light"] .nav-link:hover{
-  color: 	rgb(106, 0, 187) !important;
+  color: 	#00bbff !important;
 }
 html[light-mode="light"] .navbar-brand:hover{
   color: #000000 !important;
@@ -515,13 +518,13 @@ html[light-mode="light"] .navbar-brand:hover{
 
 .footer {
   padding-top: 10px;
-  font-family: "Poppins", sans-serif;
-  background-color: #121212;
+  font-family: 'Itim', cursive;
+  background-color: #847f7f;
 }
 
 .tag {
-  font-family: "Poppins", sans-serif;
-  font: size 20px;
+  font-family: 'Itim', cursive;
+  font-size: 35px;
   line-height: 26px;
   text-align: center;
   color: #fff;
@@ -800,7 +803,7 @@ Contact Form In Footer
   font-size: 25px;
   font-weight: 200;
   line-height: 22px;
-  border-bottom: 3px solid #bb86fc;
+  border-bottom: 3px solid #00bbff;
 }
 
 .form-header {
@@ -810,6 +813,7 @@ Contact Form In Footer
 
 form {
   margin: 15px auto;
+  font-family: 'Itim', cursive;
   color: #000;
 }
 
@@ -822,6 +826,7 @@ form {
 
 .form-style-6 {
   font: 95% Arial, Helvetica, sans-serif;
+  font-family: 'Itim', cursive;
   max-width: 400px;
   margin: 10px auto;
   padding: 16px;
@@ -829,7 +834,7 @@ form {
 }
 
 .form-style-6 h1 {
-  background: #bb86fc;
+  background: #00bbff;
   font-size: 140%;
   font-weight: 300;
   text-align: center;
@@ -859,10 +864,11 @@ form {
   background: transparent;
   margin-bottom: 4%;
   border: #000;
-  border-bottom: 2px solid #bb86fc;
+  border-bottom: 2px solid #00bbff;
   padding: 3%;
   color: rgb(107, 105, 105);
   font: 95% Arial, Helvetica, sans-serif;
+  font-size: 'Itim', cursive;
   border-radius: 2px;
 }
 
@@ -876,9 +882,9 @@ form {
 .form-style-6 input[type="url"]:focus,
 .form-style-6 textarea:focus,
 .form-style-6 select:focus {
-  box-shadow: 0 0 5px #bb86fc;
+  box-shadow: 0 0 5px #00bbff;
   padding: 3%;
-  border: 1px solid #bb86fc;
+  border: 1px solid #00bbff;
   border-radius: 2px;
 }
 
@@ -890,8 +896,8 @@ form {
   width: 100%;
   margin-top: 2rem;
   padding: 3%;
-  background: #bb86fc;
-  border-bottom: 2px solid #bb86fc;
+  background: #00bbff;
+  border-bottom: 2px solid #00bbff;
   border-radius: 23px;
   border-top-style: none;
   border-right-style: none;
@@ -902,7 +908,7 @@ form {
 
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover {
-  background:#6a00bbd2;;
+  background:#00bbff;
 
 }
 
@@ -910,7 +916,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Itim', cursive;
 }
 
 .footer hr {
@@ -995,6 +1001,7 @@ form {
 /* box shadow for profile picture */
 
 .rounded-circle {
+  margin-top: 30px;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
@@ -1031,7 +1038,7 @@ outline: none;
   border-radius: 50px;
   border-style: none;
   transition: 0.5s ease background-color, 0.5s ease box-shadow;
-  background: #bb86fc;
+  background-image: linear-gradient(147deg, #bb86fc 35%, #00bbff 74%);
 }
 #lnch_btn {
   position: absolute;
